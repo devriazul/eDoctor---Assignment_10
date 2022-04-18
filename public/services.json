@@ -1,0 +1,43 @@
+[{
+        "id": 1,
+        "name": "P1 - Weekly Health Checkup",
+        "ratings": 5.00,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvcel2eFjeX0to2TY5SK9WkGI70vnhQVtBYA&usqp=CAU",
+        "text": "Subscribe health service for 7 days"
+    },
+    {
+        "id": 2,
+        "name": "P2 - Monthly Health Checkup",
+        "ratings": 4.25,
+        "img": "https://dcassetcdn.com/design_img/3702198/563014/22162021/h2d57y58xrmmxsarqc74xhzqy1_image.jpg",
+        "text": "Subscribe health service for 30 days"
+    },
+    {
+        "id": 3,
+        "name": "P3 - Yearly Health Checkup",
+        "ratings": 4.50,
+        "img": "https://i.pinimg.com/originals/1e/1d/b0/1e1db036f76348c2a477b0c20459eeec.jpg",
+        "text": "Subscribe health service for 365 days"
+    },
+    {
+        "id": 4,
+        "name": "P4 - 5 Yearly Health Checkup",
+        "ratings": 4.00,
+        "img": "https://st4.depositphotos.com/1028367/30954/v/380/depositphotos_309545490-stock-illustration-warranty-for-5-years-product.jpg?forcejpeg=true",
+        "text": "Subscribe health service for 5 years"
+    },
+    {
+        "id": 5,
+        "name": "P5 - 10 Yearly Health Checkup",
+        "ratings": 1.00,
+        "img": "https://www.pngitem.com/pimgs/m/190-1906198_speed-queen-10-year-warranty-logo-hd-png.png",
+        "text": "Subscribe health service for 10 years"
+    },
+    {
+        "id": 6,
+        "name": "P6 - Lifetime Health Checkup",
+        "ratings": 5.00,
+        "img": "https://ts-cms-production.votenow.tv/campaign/10/07/1007744/16021965175f7f94259740d3.32991770.png",
+        "text": "Subscribe health service for Lifetime"
+    }
+]
