@@ -17,7 +17,7 @@ const Checkout = () => {
             <h3>Selected Item: {selectedItem.name}</h3>
             <p>Rating : {selectedItem.ratings}</p>
             <p>Description : {selectedItem.text}</p>
-            <p>Price : {selectedItem.ratings}</p>
+            <p>Price : {selectedItem.price}</p>
           </div>
         </div>
         <div className="container text-center border rounded-3 my-4 p-2">

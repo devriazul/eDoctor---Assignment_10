@@ -1,15 +1,18 @@
-.item{
+.item {
     height: 500px;
 }
-.single-item{
+
+.single-item {
     height: 470px;
-    border: 1px solid orangered;
+    border: 1px solid rgb(106, 100, 184);
     border-radius: 10px;
 }
-.single-item hr{
-    background-color: orangered;
+
+.single-item hr {
+    background-color: rgb(230, 138, 217);
     opacity: 1;
 }
-.btn-checkout{
-    background-color: orangered !important;
+
+.btn-checkout {
+    background-color: rgb(230, 138, 217) !important;
 }

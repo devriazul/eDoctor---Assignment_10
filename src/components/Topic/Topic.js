@@ -4,7 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import Checkout from "../../Pages/Checkout/Checkout";
 import "./Topic.css";
 const Topic = ({ item }) => {
-  const { img, id, name, ratings, text } = item;
+  const { img, id, name, ratings, text, price } = item;
   const navigate = useNavigate();
 
   const routeChange = () =>{ 
@@ -17,9 +17,14 @@ const Topic = ({ item }) => {
         <img src={img} alt="" height={200} className="rounded-3"/>
         <div className="ms-4">
           <h5 className="text-start m-0 p-0">{name}</h5>
-          <p className="text-start m-0 mt-1 p-0">
-            Rating: {ratings.toFixed(2)}{" "}
-          </p>
+          <div className="text-inline-block">
+            <p className="text-start m-0 mt-1 p-0">
+              Rating: {ratings.toFixed(2)}{" "}
+            </p>
+            <p className="text-end m-0 mt-1 p-0">
+              Price: {price}{" "}
+            </p>
+          </div>
         </div>
         <hr />
         <p className="text-start" title={text}>
