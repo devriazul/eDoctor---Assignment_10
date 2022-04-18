@@ -1,15 +1,18 @@
 .signup-btn {
-  background: rgb(255, 238, 232) !important ;
-  transition: .4s !important;
-  font-size: 20px !important;
+    background: rgb(136, 140, 182) !important;
+    transition: .4s !important;
+    font-size: 20px !important;
+    color: white !important;
 }
-.login-btn{
-    background-color: rgb(255, 102, 54) !important;
+
+.login-btn {
+    background-color: rgb(57, 35, 252) !important;
     color: white !important;
     font-size: 20px !important;
     transition: .4s !important;
 }
-.signup-btn:hover, .login-btn:hover {
-    background-color: #d43100 !important;
-}
 
+.signup-btn:hover,
+.login-btn:hover {
+    background-color: rgb(226, 14, 180) !important;
+}
