@@ -16,21 +16,13 @@
 
 .banner Button {
     font-size: 20px;
-    background-color: rgb(116, 123, 199);
+    background-color: #248EFF;
 }
 
 .banner Button:hover {
     background-color: rgb(226, 14, 180) !important;
 }
 
-
-/* .banner-pik{
-    height: 553px;
-    position: relative;
-    left: 5px;
-    clip-path: polygon(20% 0%, 100% 0px, 100% 100%, 0px 130%);
-} */
-
 .orange {
-    color: #ff6636;
+    color: #248EFF;
 }

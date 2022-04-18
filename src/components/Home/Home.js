@@ -17,7 +17,7 @@ const Home = () => {
         <div className="col-md-6 px-5 py-5 d-flex align-items-center ">
           <div className="">
             <h1 className="text-start">
-              Stay with <span className="orange">Dr. Agarwal</span> anytime anywhere
+              Stay with <span className="orange">Dr. Yousuf</span> anytime anywhere
             </h1>
             <h4 className="text-start py-5  pe-5">
               Our mision is to help people to find the best health solution in online anytime, anywhere.
