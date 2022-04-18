@@ -13,14 +13,14 @@ const Home = () => {
   const [user, loading, error] = useAuthState(auth);
   return (
     <>
-      <div className="row banner">
+      <div className="container row banner">
         <div className="col-md-6 px-5 py-5 d-flex align-items-center ">
           <div className="">
             <h1 className="text-start">
               Stay with <span className="orange">Dr. Yousuf</span> anytime anywhere
             </h1>
             <h4 className="text-start py-5  pe-5">
-              Our mision is to help people to find the best health solution in online anytime, anywhere.
+              My mision is to help people to find the best health solution in online anytime, anywhere.
             </h4>
             <Button
               className={
@@ -37,7 +37,7 @@ const Home = () => {
           </div>
         </div>
         <div className="col-md-6  banner-pik d-flex justify-content-center align-items-center">
-          <img src={banner} className="image-fluid" alt="" height="500px" />
+          <img src={banner} className="image-fluid img-thumbnail" alt="" height="500px" />
           {}
         </div>
       </div>
