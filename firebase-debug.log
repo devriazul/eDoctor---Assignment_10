@@ -1,33 +1,33 @@
-[debug] [2022-04-18T16:16:46.980Z] ----------------------------------------------------------------------
-[debug] [2022-04-18T16:16:46.983Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\engrr\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
-[debug] [2022-04-18T16:16:46.984Z] CLI Version:   10.6.0
-[debug] [2022-04-18T16:16:46.984Z] Platform:      win32
-[debug] [2022-04-18T16:16:46.984Z] Node Version:  v17.3.0
-[debug] [2022-04-18T16:16:46.986Z] Time:          Mon Apr 18 2022 22:16:46 GMT+0600 (Bangladesh Standard Time)
-[debug] [2022-04-18T16:16:46.986Z] ----------------------------------------------------------------------
+[debug] [2022-04-18T16:46:06.761Z] ----------------------------------------------------------------------
+[debug] [2022-04-18T16:46:06.768Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\engrr\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-04-18T16:46:06.770Z] CLI Version:   10.6.0
+[debug] [2022-04-18T16:46:06.771Z] Platform:      win32
+[debug] [2022-04-18T16:46:06.772Z] Node Version:  v17.3.0
+[debug] [2022-04-18T16:46:06.774Z] Time:          Mon Apr 18 2022 22:46:06 GMT+0600 (Bangladesh Standard Time)
+[debug] [2022-04-18T16:46:06.775Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2022-04-18T16:16:47.099Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2022-04-18T16:16:47.099Z] > authorizing via signed-in user (engr.riazul@gmail.com)
-[debug] [2022-04-18T16:16:47.100Z] [iam] checking project e-doctor-c2709 for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update"]
-[debug] [2022-04-18T16:16:47.104Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/e-doctor-c2709:testIamPermissions [none]
-[debug] [2022-04-18T16:16:47.104Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/e-doctor-c2709:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update"]}
-[debug] [2022-04-18T16:16:47.969Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/e-doctor-c2709:testIamPermissions 200
-[debug] [2022-04-18T16:16:47.970Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/e-doctor-c2709:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update"]}
-[debug] [2022-04-18T16:16:47.971Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/e-doctor-c2709/serviceAccounts/e-doctor-c2709@appspot.gserviceaccount.com:testIamPermissions [none]
-[debug] [2022-04-18T16:16:47.971Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/e-doctor-c2709/serviceAccounts/e-doctor-c2709@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
-[debug] [2022-04-18T16:16:49.610Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/e-doctor-c2709/serviceAccounts/e-doctor-c2709@appspot.gserviceaccount.com:testIamPermissions 200
-[debug] [2022-04-18T16:16:49.611Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/e-doctor-c2709/serviceAccounts/e-doctor-c2709@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
-[debug] [2022-04-18T16:16:49.614Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/e-doctor-c2709 [none]
-[debug] [2022-04-18T16:16:50.202Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/e-doctor-c2709 200
-[debug] [2022-04-18T16:16:50.203Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/e-doctor-c2709 {"projectId":"e-doctor-c2709","projectNumber":"474617603290","displayName":"e-doctor","name":"projects/e-doctor-c2709","resources":{"hostingSite":"e-doctor-c2709","realtimeDatabaseInstance":"e-doctor-c2709-default-rtdb"},"state":"ACTIVE"}
-[debug] [2022-04-18T16:16:50.205Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/e-doctor-c2709 [none]
-[debug] [2022-04-18T16:16:50.853Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/e-doctor-c2709 200
-[debug] [2022-04-18T16:16:50.854Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/e-doctor-c2709 {"projectId":"e-doctor-c2709","projectNumber":"474617603290","displayName":"e-doctor","name":"projects/e-doctor-c2709","resources":{"hostingSite":"e-doctor-c2709","realtimeDatabaseInstance":"e-doctor-c2709-default-rtdb"},"state":"ACTIVE"}
+[debug] [2022-04-18T16:46:07.061Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-04-18T16:46:07.062Z] > authorizing via signed-in user (engr.riazul@gmail.com)
+[debug] [2022-04-18T16:46:07.062Z] [iam] checking project e-doctor-c2709 for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update"]
+[debug] [2022-04-18T16:46:07.074Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/e-doctor-c2709:testIamPermissions [none]
+[debug] [2022-04-18T16:46:07.075Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/e-doctor-c2709:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update"]}
+[debug] [2022-04-18T16:46:08.998Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/e-doctor-c2709:testIamPermissions 200
+[debug] [2022-04-18T16:46:08.998Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/e-doctor-c2709:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update"]}
+[debug] [2022-04-18T16:46:09.000Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/e-doctor-c2709/serviceAccounts/e-doctor-c2709@appspot.gserviceaccount.com:testIamPermissions [none]
+[debug] [2022-04-18T16:46:09.000Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/e-doctor-c2709/serviceAccounts/e-doctor-c2709@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2022-04-18T16:46:10.692Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/e-doctor-c2709/serviceAccounts/e-doctor-c2709@appspot.gserviceaccount.com:testIamPermissions 200
+[debug] [2022-04-18T16:46:10.693Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/e-doctor-c2709/serviceAccounts/e-doctor-c2709@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2022-04-18T16:46:10.696Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/e-doctor-c2709 [none]
+[debug] [2022-04-18T16:46:11.259Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/e-doctor-c2709 200
+[debug] [2022-04-18T16:46:11.260Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/e-doctor-c2709 {"projectId":"e-doctor-c2709","projectNumber":"474617603290","displayName":"e-doctor","name":"projects/e-doctor-c2709","resources":{"hostingSite":"e-doctor-c2709","realtimeDatabaseInstance":"e-doctor-c2709-default-rtdb"},"state":"ACTIVE"}
+[debug] [2022-04-18T16:46:11.261Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/e-doctor-c2709 [none]
+[debug] [2022-04-18T16:46:11.789Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/e-doctor-c2709 200
+[debug] [2022-04-18T16:46:11.790Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/e-doctor-c2709 {"projectId":"e-doctor-c2709","projectNumber":"474617603290","displayName":"e-doctor","name":"projects/e-doctor-c2709","resources":{"hostingSite":"e-doctor-c2709","realtimeDatabaseInstance":"e-doctor-c2709-default-rtdb"},"state":"ACTIVE"}
 [info] 
 [info] === Deploying to 'e-doctor-c2709'...
 [info] 
 [info] i  deploying database, functions, hosting 
-[debug] [2022-04-18T16:16:51.267Z] TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
+[debug] [2022-04-18T16:46:12.145Z] TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
     at new NodeError (node:internal/errors:371:5)
     at validateString (node:internal/validators:120:11)
     at Object.join (node:path:429:7)
